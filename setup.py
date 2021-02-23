@@ -19,13 +19,18 @@ setuptools.setup(
     packages=setuptools.find_packages(where="display_advertising_challenge"),
 
     install_requires=[
-        "aws-cdk.core==1.87.1",
-        "aws-cdk.aws_iam==1.87.1",
+        "aws-cdk.core==1.89.0",
+        "aws-cdk.aws_iam==1.89.0",
         "aws-cdk.aws_sqs==1.87.1",
         "aws-cdk.aws_sns==1.87.1",
         "aws-cdk.aws_sns_subscriptions==1.87.1",
         "aws-cdk.aws_s3==1.87.1",
-    ],
+        "aws-cdk.aws_ec2==1.87.1",,
+        "aws-cdk.aws_ecs==1.87.1",
+        "aws-cdk.aws_ecs_events==1.87.1",
+        "aws-cdk.aws_events_targets==1.87.1",
+        "aws-cdk.aws_s3_assets==1.87.1",
+        ],
 
     python_requires=">=3.6",
 
